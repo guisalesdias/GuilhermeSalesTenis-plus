@@ -1,0 +1,184 @@
+
+
+body{
+    background-color: rgb(226, 225, 225);
+    color: white;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+h1{
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: ;
+    padding: 40px;
+    border-radius: 30px;
+    background-image: linear-gradient( rgb(94, 93, 93), rgb(57, 68, 107) );
+   
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace
+}
+span{
+    color: rgb(169, 207, 70);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+img{
+    width:700px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(169, 207, 70);
+    
+}
+#comprar-btn{
+    border: 2px solid rgb(169, 207, 70);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#comprar-btn:hover{
+    background: rgb(169, 207, 70);
+    color: white;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+    
+    height: 50px;
+    width: 50%;
+    background: rgb(169, 207, 70);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+footer{
+    display: flex;
+    
+}
+
+footer img{
+    border-radius: 20px;
+}
+
+#secundario{
+    margin-top: 150px;
+}
+
+#beneficios{
+    margin-top:120px ;
+    width:80%;
+    color: rgb(80, 79, 79);
+    font-size: 18px;
+    margin-left: 40px;
+    
+}
+
+#cabecalho{
+    font-size: 25px;
+    margin-left: 18px;
+    color: rgb(169, 207, 70);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#caixa{
+    display: flex;
+    margin-top: 150px;
+    margin-left: -110px;
+}
+
+#caixa div{
+    width: 22rem;
+    height: 26rem;
+    background-color: rgb(255, 255, 255);
+    margin-left: 7%;
+    border-radius: 20px;
+    
+    
+}
+
+#caixa img{
+    width: 30rem;
+    margin-left: -45px;
+    margin-top: 20px;
+    
+}
+
+#caixa p{
+    color: rgb(67, 68, 68);
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#caixa input{
+background-color: rgb(255, 255, 255);
+border:rgb(169, 207, 70) solid 2px ;
+margin-left: 20%;
+color: rgb(46, 46, 46);
+padding: 10px 70px 30px 70px;
+
+}
+
+#caixa input:hover{
+    background-color: rgb(169, 207, 70);
+    color: white;
+}
